@@ -1,0 +1,21 @@
+{
+  "name": "mo2min-utils",
+  "private": true,
+  "version": "0.0.1",
+  "files": [
+    "dist"
+  ],
+  "main": "dist/mo2min-utils.js",
+  "module": "dist/mo2min-utils.mjs",
+  "typings": "dist/mo2min-utils.d.ts",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "esbuild": "^0.14.36",
+    "rollup": "^2.70.2",
+    "rollup-plugin-dts": "^4.2.1",
+    "rollup-plugin-esbuild": "^4.9.1",
+    "typescript": "^4.6.3"
+  }
+}
